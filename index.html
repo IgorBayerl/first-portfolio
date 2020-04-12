@@ -4,66 +4,138 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Igor Bayerl</title>
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
     <link href="./css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ab1f02486.js" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="js/jquery-3.5.0.min.js"> </script> -->
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
-                <div>
-                    <a href="#">About me</a>
-                    <a href="#">portifolio</a>
-                    <a href="#">contact</a>
-                </div>
-            </nav>
-        </header>
+
+    <header class="header">
+        <nav class="header-menu">
+            <div class="header-menu-item">
+                <a href="#">ABOUT</a>
+            </div>
+            <div class="header-menu-item">
+                <a href="#">PORTIFOLIO</a>
+            </div>
+            <div class="header-menu-item">
+                <a href="#">CONTACT</a>
+            </div>
+        </nav>
+    </header>
+    <main>
         <div class="profile">
-            <div class="profile-img">Profile</div>
-            <div class="profile-info"> description</div>
-        </div>
-        <div>
-            <div>PORTIFOLIO</div>
-            <div>
-                <!-- ///////////////////////////// -->
-                <section class="card">
-                    <div class="card-header">
-                        <img src="" alt="">
-                        <div class="card-info">
-                            <h3>Visualizar</h3>
-                            <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="card-content">
-                            <div>
-                                <h1>GUERRA CIVIL</h1>
-                                <h2>Aventura,
-                                    Ação,
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <i href="#" class="fas fa-heart"></i>
-                            <a>
-                                <div>8.7</div>
-                            </a>
-                        </div>
-                    </div>
-                </section>
+            <div class="profile-img" id="profile-img">
+                <div>
+                    <img src="./img/igor-bayerl.png" alt="Igor">
+                </div>
+            </div>
+            <div class="profile-info">
+                <h1>About-me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fuga nostrum neque est aut
+                    cupiditate
+                    consectetur culpa minima, cumque explicabo ullam deserunt architecto alias corrupti voluptatum velit
+                    officia ipsa esse!
+                </p>
+                <a href="#">Ler mais</a>
             </div>
         </div>
-        <div>
-            contact-me
+    </main>
+    <div>
+        <div class="portifolio-title">
+            <h1>
+                PORTIFOLIO
+            </h1>
         </div>
-        <footer>
-            <div></div>
-            <div></div>
-        </footer>
+        <div class="cards">
+            <!-- //////////////// CARD ////////////////// -->
+            <section class="card">
+                <div class="card-header">
+                    <img src="" alt="">
+                    <div class="card-info">
+                        <h3>Visualizar</h3>
+                        <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-content">
+                        <div>
+                            <h1>ITEM</h1>
+                            <h2>descrição
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i href="#" class="fas fa-heart"></i>
+                        <a>
+                            <div>8.7</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card-header">
+                    <img src="" alt="">
+                    <div class="card-info">
+                        <h3>Visualizar</h3>
+                        <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-content">
+                        <div>
+                            <h1>ITEM</h1>
+                            <h2>descrição
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i href="#" class="fas fa-heart"></i>
+                        <a>
+                            <div>8.7</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
+    <div class="contact">
+        <div class="contact-title">
+            <h1>
+                CONTACT-ME
+            </h1>
+        </div>
+        <div class="contact-box">
+            <div class="contact-box-inputs">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div>
+                <textarea name="mensagem" id="msg" cols="30" rows="10">Digite aqui</textarea>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <a class="footer-logo">
+                <h2></h2>
+            </a>
+
+            <ul class="footer-social">
+                <a href="https://github.com/IgorBayerl#" class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/igor-bayerl-719a10176/#" class="fab fa-linkedin"></a>
+                <a href="https://www.facebook.com/igor.bayerl#" class="fab fa-facebook"></a>
+                <a href="https://www.instagram.com/igorbayerl/#" class="fab fa-instagram"></a>
+            </ul>
+        </div>
+    </footer>
+
 </body>
 
 </html>
