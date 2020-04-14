@@ -1,0 +1,93 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+    scroll-behavior: smooth;
+    color: #AFB3BD;
+}
+
+body {
+	background-color: #374453;
+	font-size: 16px;
+    font-family: "Montserrat", sans-serif; 
+}
+/* /////////// igor bayerl /////////// */
+
+#name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name path:nth-child(1) {
+    stroke-dasharray: 30px;
+}
+#name path:nth-child(2) {
+    stroke-dasharray: 30px;
+}
+#name path:nth-child(3) {
+    stroke-dasharray: 30px;
+}
+#name path:nth-child(4) {
+    
+}
+#name path:nth-child(5) {
+    
+}
+#name path:nth-child(6) {
+    
+}
+#name path:nth-child(7) {
+    
+}
+#name path:nth-child(8) {
+    
+}
+#name path:nth-child(9) {
+    
+}
+#name path:nth-child(10) {
+    
+}
+
+
+/* /////////// CURSOR /////////// */
+
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3 ease;
+    transition-property: background, transform ;
+}
+
+.link-grow{
+    transform: scale(2);
+    background: black;
+}
+
+/* ///////////////////////////////// */
+
+a{
+    color: #AFB3BD; 
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+
+}
+
+
+@media(max-width: 800px){
+
+
+}
