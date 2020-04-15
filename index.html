@@ -20,21 +20,43 @@
     <!-- <div class="cursor"></div> -->
     <!-- //////////////////// -->
 
-
     <header class="header">
         <nav class="header-menu">
             <ul>
-                <li><a href="#"></a>About</li>
-                <li><a href="#"></a>Portifolio</li>
-                <li><a href="#"></a>Skills</li>
-                <li><a href="#"></a>Contact</li>
+                <a href="#section-portifolio">
+                    <i class="fas fa-folder"></i>
+                    <div>Portifolio</div>
+                </a>
+                <a href="#section-about">
+                    <i class="fas fa-address-card"></i>
+                    <div>About</div>
+                </a>
+                <a href="#section-portifolio">
+                    <i class="fas fa-folder"></i>
+                    <div>Area</div>
+                </a>
+                <a href="#section-skills">
+                    <i class="fas fa-chart-bar"></i>
+                    <div>Skills</div>
+                </a>
+                <a href="#section-contact">
+                    <i class="fas fa-envelope-open"></i>
+                    <div>Contact</div>
+                </a>
+
+                <!-- <li></li>
+                <li><a href="#section-about ">About</a></li>
+                <li><a href="#">topic3</a></li>
+                <li><a href="#section-skills">Skills</a></li>
+                <li><a href="#section-contact">Contact</a></li> -->
             </ul>
         </nav>
     </header>
     <main>
         <div class="profile">
             <div class="profile-img" id="profile-img">
-                <div id="name">
+                <img class="profile-photo" src="./img/igor-bayerl-semfundosemcor.png" alt="">
+                <div id="name-title">
 
                     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
                     <svg width="750" height="156" viewBox="0 0 750 156" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,23 +113,12 @@
                     </svg>
 
                     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-                    <!-- <img src="./img/igor-bayerl.png" alt="Igor"> -->
                 </div>
             </div>
-            <div class="profile-info">
-                <h1>About-me</h1>
-                <p>
-                    Hi,
-                    I'm Igor ,
-                </p>
-                <p id="text-summon">
-                    studant, tech intusiast,
-                </p>
-                <a href="#">Ler mais</a>
-            </div>
+
         </div>
     </main>
-    <div>
+    <div id="section-portifolio">
         <div class="portifolio-title">
             <h1>
                 PORTIFOLIO
@@ -165,42 +176,67 @@
             </section>
         </div>
     </div>
-    <div class="contact">
+    <div class="about" id="section-about">
+        <div class="about-box">
+            <div class="about-box-info">
+                <h1>About-me</h1>
+                <p>
+                    Hi,
+                    I'm Igor ,
+                </p>
+                <p id="text-summon">
+                    studant, tech intusiast,
+                </p>
+                <a href="#">Ler mais</a>
+            </div>
+        </div>
+    </div>
+    <div class="skills" id="section-skills">
+        Skills
+    </div>
+    <div class="contact" id="section-contact">
         <div class="contact-title">
             <h1>
                 CONTACT-ME
             </h1>
         </div>
-        <div class="contact-box">
-            <div class="contact-box-inputs">
-                <input type="text">
-                <input type="text">
+        <div class="contact__interesses-box">
+            <div class="interesses">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, repellat? Doloremque explicabo
+                laudantium molestias asperiores!
             </div>
-            <div>
-                <textarea name="mensagem" id="msg" cols="30" rows="10">Digite aqui</textarea>
+            <div class="contact-box">
+                <div class="contact-box-inputs">
+                    Name
+                    <input class="input__contact__box" id="name" type="text">
+                    Email
+                    <input class="input__contact__box" id="email" type="text">
+                    Subject
+                    <input class="input__contact__box" id="assunto" type="text">
+                </div>
+                <div>
+                    <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div class="footer">
-            <a class="footer-logo">
-                <h2></h2>
-            </a>
 
-            <ul class="footer-social">
-                <a href="https://github.com/IgorBayerl#" class="fab fa-github"></a>
-                <a href="https://www.linkedin.com/in/igor-bayerl-719a10176/#" class="fab fa-linkedin"></a>
-                <a href="https://www.facebook.com/igor.bayerl#" class="fab fa-facebook"></a>
-                <a href="https://www.instagram.com/igorbayerl/#" class="fab fa-instagram"></a>
-            </ul>
-        </div>
-    </footer>
+        <footer>
+            <div class="footer">
+                <ul class="footer-social">
+                    <a href="https://github.com/IgorBayerl#" class="fab fa-github"></a>
+                    <a href="https://www.linkedin.com/in/igor-bayerl-719a10176/#" class="fab fa-linkedin"></a>
+                    <a href="https://www.facebook.com/igor.bayerl#" class="fab fa-facebook"></a>
+                    <a href="https://www.instagram.com/igorbayerl/#" class="fab fa-instagram"></a>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
 
     <!-- /////////// SCRIPTS ///////////// -->
 
     <!-- <script src="./js/app.js"></script> -->
     <script src="./js/text.js"></script>
-    <script src="./js/name.js"></script>
 
 </body>
 
