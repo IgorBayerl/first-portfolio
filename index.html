@@ -8,10 +8,15 @@
     <link href="./css/normalize.css" rel="stylesheet" type="text/css" />
     <!-- <link href="./css/styles.css" rel="stylesheet" type="text/css" /> -->
     <link href="./css/main.css" rel="stylesheet" type="text/css" />
+    <link href="./css/lightslider.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/portifolio.css" />
 
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1ab1f02486.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
     <!-- <script type="text/javascript" src="js/jquery-3.5.0.min.js"> </script> -->
 </head>
 
@@ -44,11 +49,6 @@
                     <div>Contact</div>
                 </a>
 
-                <!-- <li></li>
-                <li><a href="#section-about ">About</a></li>
-                <li><a href="#">topic3</a></li>
-                <li><a href="#section-skills">Skills</a></li>
-                <li><a href="#section-contact">Contact</a></li> -->
             </ul>
         </nav>
     </header>
@@ -124,56 +124,206 @@
                 PORTIFOLIO
             </h1>
         </div>
-        <div class="cards">
-            <!-- //////////////// CARD ////////////////// -->
-            <section class="card">
-                <div class="card-header">
-                    <img src="" alt="">
-                    <div class="card-info">
-                        <h3>Visualizar</h3>
-                        <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="card-content">
-                        <div>
-                            <h1>ITEM</h1>
-                            <h2>descrição
-                            </h2>
+        <div class="container">
+            <ul id="autoWidth" class="cs-hidden">
+                <!------------------------>
+                <li class="item-a">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/be_the_hero.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card-footer">
-                        <i href="#" class="fas fa-heart"></i>
-                        <a>
-                            <div>8.7</div>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="card-header">
-                    <img src="" alt="">
-                    <div class="card-info">
-                        <h3>Visualizar</h3>
-                        <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="card-content">
-                        <div>
-                            <h1>ITEM</h1>
-                            <h2>descrição
-                            </h2>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card-footer">
-                        <i href="#" class="fas fa-heart"></i>
-                        <a>
-                            <div>8.7</div>
-                        </a>
-                    </div>
-                </div>
-            </section>
+                    </section>
+                </li>
+                <!------------------------>
+                <li class="item-a">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/be_the_hero.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <!------------------------>
+                <li class="item-a">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/be_the_hero.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <!------------------------>
+                <li class="item-b">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/snake_c.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <!------------------------>
+                <li class="item-c">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/snake_c.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <!------------------------>
+                <li class="item-d">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/snake_c.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <!------------------------>
+                <li class="item-e">
+                    <section class="card">
+                        <div class="card-header">
+                            <img src="./img/projects/snake_c.png" alt="Background" />
+                            <div class="card-info">
+                                <h3>Vingadores</h3>
+                                <a href="#" class="card-link"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div>
+                                    <h1>GUERRA CIVIL</h1>
+                                    <h2>Aventura,
+                                        Ação,
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <i href="#" class="fas fa-heart"></i>
+                                <a>
+                                    <div>8.7</div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <!------------------------>
+            </ul>
         </div>
     </div>
     <div class="about" id="section-about">

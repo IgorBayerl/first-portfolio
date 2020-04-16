@@ -130,6 +130,7 @@ li {
 .profile-photo {
     border-radius: 50%;
     opacity: 0;
+    z-index: -1;
     animation: photo-apear 2s ease forwards 3s;
     position: absolute;
     top: 40%;
@@ -175,6 +176,7 @@ li {
     animation: summon-menu 2s ease forwards 3s
     
     
+    
 }
 
 .header-menu ul{
@@ -183,7 +185,7 @@ li {
     
     width: 70%;
     height: 60px;
-
+    z-index: 200;
     align-items: center;
     background-color: #383A41;
     justify-content: space-around;
@@ -266,9 +268,10 @@ li {
 #section-portifolio {
     height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
+    padding-top: 10px;
 }
+
+/* em outro css (portifolio.css) */
 
 
 /* ////////////////// contact ///////////////// */
@@ -303,7 +306,6 @@ li {
     margin-top: 15vh  ;
     width: 35vw;
     height: 50vh;
-    background-color: rgb(33, 37, 48) 56, 97);
 }
 
 
@@ -316,6 +318,7 @@ li {
     border-radius: 15px;
     background-color: #7F8289;
     border-style: none;
+    outline: 0;
 }
 
 #msg {
@@ -329,6 +332,7 @@ li {
     min-height: 100%;
     border-radius: 15px;
     background-color: #7F8289;
+    outline: 0;
     
 }
 
@@ -357,3 +361,9 @@ li {
     color: #282A32;
     
 }
+
+/* /////////////////////////////////////////////////////// */
+
+
+
+

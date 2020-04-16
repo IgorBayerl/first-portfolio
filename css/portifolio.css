@@ -1,0 +1,49 @@
+/* titulo */
+.portifolio-title {
+    width: 100%;
+}
+
+.portifolio-title h1{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #383A41;
+}
+
+
+/* ////////////////// CARDS ////////////////// */
+
+
+.card{
+position: relative;
+z-index: -2;
+height: 30vh;
+}
+
+.card-header{
+    width: 80%;
+}
+
+
+/* ////////// */
+
+#autoWidth {
+    position: relative;
+    z-index: -5;
+}
+
+/* .item-a { width:200px; }
+.item-b { width:340px; }
+.item-c { width:290px; }
+.item-d { width:220px; }
+.item-e { width:350px; }
+@media (max-width: 768px) {
+    .item-a { width:100px; }
+    .item-b { width:240px; }
+    .item-c { width:190px; }
+    .item-d { width:120px; }
+    .item-e { width:250px; }
+} */
