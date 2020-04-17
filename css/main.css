@@ -15,15 +15,18 @@ body {
 
 /* /////////// igor bayerl /////////// */
 
-#profile-img{
+.profile{
     height: 100vh;
-    width: 100vh;
+}
+
+#profile-img{
+    width: 100vw;
 }
 
 #name-title {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
     animation: text-down 2s ease forwards 3s;
 }
@@ -93,24 +96,8 @@ body {
     }
 }
 
-/* /////////// CURSOR /////////// */
 
-.cursor {
-    width: 3rem;
-    height: 3rem;
-    border: 2px solid black;
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    transition: all 0.3 ease;
-    transition-property: background, transform ;
-}
 
-.link-grow{
-    transform: scale(2);
-    background: black;
-}
 
 /* ///////////////////////////////// */
 
@@ -129,13 +116,15 @@ li {
 
 .profile-photo {
     border-radius: 50%;
+    width: 45vw;
     opacity: 0;
     z-index: -1;
     animation: photo-apear 2s ease forwards 3s;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 40vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
+    
 }
 
 @keyframes photo-apear {
@@ -176,7 +165,6 @@ li {
     animation: summon-menu 2s ease forwards 3s
     
     
-    
 }
 
 .header-menu ul{
@@ -185,7 +173,7 @@ li {
     
     width: 70%;
     height: 60px;
-    z-index: 200;
+
     align-items: center;
     background-color: #383A41;
     justify-content: space-around;
@@ -195,6 +183,7 @@ li {
 }
 
 .header-menu ul a {
+    
     height: 65px;
     align-items: center;
     border-radius: 15px;
@@ -212,6 +201,8 @@ li {
     opacity: 1;
     transform: translate(-50%, 80%);
     transition: all 0.2s ease-in-out;
+
+   
 }
 .header-menu ul a div{
     text-align: center;
@@ -220,6 +211,8 @@ li {
     top: 0;
     position: relative;
     transition: all 0.2s ease-in-out;
+
+    
 }
 
 .header-menu ul a:hover{
@@ -268,13 +261,33 @@ li {
 #section-portifolio {
     height: 100vh;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
-/* em outro css (portifolio.css) */
+.portifolio-title{
+    background-color: #383A41;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.portifolio-title h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: #383A41;
+    margin: 15px 20px;
+    height: 600px;
+    border-radius: 15px;
+}
 
 
 /* ////////////////// contact ///////////////// */
+
 
 .contact{
     height: 100vh;
@@ -292,6 +305,7 @@ li {
 .contact__interesses-box {
     display: flex;
     justify-content: space-around;
+    font-size: 15px;
 }
 
 .interesses{
@@ -364,6 +378,157 @@ li {
 
 /* /////////////////////////////////////////////////////// */
 
+
+@media screen and (max-width: 950px) {
+    #name-title{
+        width: 70%;
+    }
+
+    .header {
+        width: 100%;
+        height: 80px;
+        padding-bottom: 15px;
+        bottom: 0;
+    }
+    
+    .header-menu ul{
+        
+        width: 100%;
+        height: 60px;
+    
+    }
+    
+    .header-menu ul a {
+        
+        height: 50px;
+        width: 50px;
+    }
+    .header-menu ul a i{
+        font-size: 29px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 40%);
+        transition: all 0.2s ease-in-out;
+    
+       
+    }
+    .header-menu ul a div{
+        font-size: 10px;
+        top: -10px;        
+    }
+    
+
+    /* ////////////////////////////////////////////// */
+
+    #profile-img svg{
+        width: 70vw;
+    }
+
+    #name-title {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        animation: text-down 2s ease forwards 3s;
+    }
+
+
+    .profile-photo {
+        width: 75vw;
+        top: 40vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+
+
+    /* ////////////////// contact ///////////////// */
+
+    .contact{
+        height: 150vh;
+        width: 100%;
+    
+    }
+
+    .contact-title {
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .contact__interesses-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 5vh;
+    }
+
+    .interesses{
+       
+        padding: 10px;
+        margin-top: 15vh  ;
+        width: 80vw;
+        height: 10vh;
+    }
+
+    .contact-box {
+        margin-top: 15vh  ;
+        width: 80vw;
+        height: 50vh;
+    }
+
+
+    .input__contact__box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        max-width: 100%;
+        min-width: 100%;
+        border-radius: 15px;
+        background-color: #7F8289;
+        border-style: none;
+        outline: 0;
+    }
+
+    #msg {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 100%;
+        min-width: 100%;
+        border-style: none;
+        max-height: 100%;
+        min-height: 100%;
+        border-radius: 15px;
+        background-color: #7F8289;
+        outline: 0;
+    
+    }
+
+
+    .footer {
+        margin-top: 5vh;
+        background-color: #7F8289;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: -1;
+        bottom: 0;
+    }
+
+    .footer-social {
+        padding: 0;
+            margin: 20px 0;
+    }
+
+    .footer-social a{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 0;
+        transition: all 0.2s ease-in-out;
+    }
+}
 
 
 
