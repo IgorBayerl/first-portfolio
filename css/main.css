@@ -264,7 +264,7 @@ li {
 #skills__box {
     background-color: #383A41;
     width: 100%;
-    margin: 20px;
+    margin: 7vw;
     border-radius: 15px;
 }
 
@@ -398,8 +398,7 @@ li {
 .portifolio-title{
     background-color: #383A41;
     padding: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 15px 7vw;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
@@ -414,7 +413,7 @@ li {
 
 .container {
     background-color: #383A41;
-    margin: 15px 20px;
+    margin: 15px 7vw;
     height: 600px;
     border-radius: 15px;
 }
@@ -434,6 +433,7 @@ li {
     display: flex;
     justify-content: space-around;
     font-size: 30px;
+    pointer-events: none;
 }
 
 .contact__interesses-box {
@@ -445,15 +445,17 @@ li {
 .interesses{
        
     padding: 10px;
-    margin-top: 15vh  ;
+    margin-top: 20vh  ;
     width: 30vw;
     height: 40vh;
+    pointer-events: none;
 }
 
 .contact-box {
     margin-top: 15vh  ;
     width: 35vw;
     height: 50vh;
+    
 }
 
 
