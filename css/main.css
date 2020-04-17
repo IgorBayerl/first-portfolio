@@ -12,6 +12,10 @@ body {
     font-family: "Montserrat", sans-serif; 
 }
 
+ul{
+    padding: 0;
+}
+
 
 /* /////////// igor bayerl /////////// */
 
@@ -251,7 +255,7 @@ li {
 /* ////////////////// skills ///////////////// */
 
 #section-skills {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -275,6 +279,7 @@ li {
 .skills__conteudo{
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
@@ -284,6 +289,13 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.skills__bars{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills__about-me p{
@@ -298,11 +310,6 @@ li {
     border-radius: 50%;
 }
 
-.skills__bars{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
 
 .skills__bars li{
     margin-left: 10px;
@@ -313,9 +320,77 @@ li {
     background-color: #7F8289;
 }
 
+.max_skill{
+    width: 70%;
+    
+}
+
+/* ////////////////////////////////////// */
+
+#skill_1{
+    background-color:#AFB3BD;
+    width: 85%;
+    height: 100%;
+    text-align: right;
+}
+
+#skill_2{
+    background-color:#AFB3BD;
+    width: 85%;
+    height: 100%;
+    text-align: right;
+}
+
+#skill_3{
+    background-color:#AFB3BD;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+
+#skill_4{
+    background-color: #AFB3BD;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+
+#skill_5{
+    background-color:#AFB3BD;
+    width: 23%;
+    height: 100%;
+    text-align: right;
+}
+
+#skill_6{
+    background-color:#AFB3BD;
+    width: 90%;
+    height: 100%;
+    text-align: right;
+}
+
+#skill_7{
+    background-color:#AFB3BD;
+    width: 80%;
+    height: 100%;
+    text-align: right;
+}
+/* ////////////////////////////////////// */
+
+.skill_bar {
+    display: flex;
+    align-items: center;
+}
+.skill_bar p{
+    width: 120px;
+    margin: 0 5px 0 0;
+    color: #282A32;
+}
+
+
 /* ////////////////// portifolio ///////////////// */
 #section-portifolio {
-    height: 100vh;
+    
     width: 100%;
     padding-top: 30px;
 }
@@ -603,6 +678,23 @@ li {
     .mobile__footer-social a:hover{
         color: rgb(73, 76, 87);
         
+    }
+
+
+
+    .skills__conteudo{
+        flex-direction: column;
+        font-size: 10;
+        
+    }
+
+    .skills__about-me{
+        width: 80%;
+    }
+    
+    
+    .skills__bars{
+        width: 90%;
     }
 
     
