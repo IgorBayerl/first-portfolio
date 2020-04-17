@@ -476,7 +476,7 @@ li {
     
 }
 
-
+/* 
 .input__contact__box {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -487,9 +487,9 @@ li {
     background-color: #7F8289;
     border-style: none;
     outline: 0;
-}
+} */
 
-#msg {
+/* #msg {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -502,7 +502,7 @@ li {
     background-color: #7F8289;
     outline: 0;
     
-}
+} */
 
 
 
@@ -523,6 +523,42 @@ li {
 .footer-social a:hover{
     color: #282A32;
     
+}
+
+.contacts ul{
+    display: flex;
+    flex-direction: column;
+    background-color: #383A41;
+    align-items: flex-start;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+.contacts a{
+    font-size: 40px;
+    display: flex;
+    margin: 15px;
+    transition: all 0.2s ease-in-out;
+}
+.contacts i{
+    font-size: 40px;
+    display: flex;
+    margin: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacts a:hover{
+    color: #282A32;
+    
+}
+
+.contacts p{
+    font-size: 12px;
+    padding: 15px;
+    margin: 0;
+    
+    font-family: "Montserrat", sans-serif;
 }
 
 /* /////////////////////////////////////////////////////// */
@@ -663,11 +699,11 @@ li {
         height: 800vh;
     }
 
-    .contact-box-inputs {
+    /* .contact-box-inputs {
         margin-top: 5vh;
-    }
+    } */
 
-    .input__contact__box {
+    /* .input__contact__box {
         margin-top: 10px;
         margin-bottom: 10px;
         padding: 10px;
@@ -677,7 +713,7 @@ li {
         background-color: #7F8289;
         border-style: none;
         outline: 0;
-    }
+    } */
 
     #msg {
         padding: 10px;
