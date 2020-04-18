@@ -455,14 +455,13 @@ li {
 
 .card__titulo{
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .card__capa img{
     
     width: 90%;
     border-radius: 15px;
-    height: 100%;
     padding: 10px;        
     transition: all 0.3s ease-in-out;
 }
