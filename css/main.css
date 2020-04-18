@@ -463,12 +463,10 @@ li {
     width: 90%;
     border-radius: 15px;
     padding: 10px;        
-    transition: all 0.3s ease-in-out;
+    
 }
 
-.card__capa img:hover {
-    opacity: 0.5;
-}
+
 
 
 
@@ -513,6 +511,7 @@ li {
     justify-content: space-around;
     font-size: 15px;
 }
+
 
 .interesses{
        
