@@ -432,8 +432,63 @@ li {
 .container {
     background-color: #383A41;
     margin: 15px 7vw;
-    height: 600px;
     border-radius: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 480px;
+    width: 200px;
+    padding: 0;
+    background-color: #282A32;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__titulo{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card__capa img{
+    
+    width: 90%;
+    border-radius: 15px;
+    height: 100%;
+    padding: 10px;        
+    transition: all 0.3s ease-in-out;
+}
+
+.card__capa img:hover {
+    opacity: 0.5;
+}
+
+
+
+.card__body{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 90%;
+    font-size: 12px;
+}
+
+.card__body a{
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.card__body a:hover{
+    color: yellowgreen;
+    font-weight: bold;
 }
 
 
