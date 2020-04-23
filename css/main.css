@@ -547,6 +547,11 @@ li {
     outline: 0;
 }
 
+.input__contact__box::-webkit-input-placeholder {
+    color: #383A41;
+ }
+
+
  #msg {
     padding: 10px;
     margin-top: 10px;
@@ -566,6 +571,7 @@ form{
     align-items: center;
     flex-direction: column;
     
+
 }
 
 #contact_submit_button{
