@@ -534,7 +534,7 @@ li {
     
 }
 
-/* 
+
 .input__contact__box {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -545,24 +545,46 @@ li {
     background-color: #7F8289;
     border-style: none;
     outline: 0;
-} */
+}
 
-/* #msg {
+ #msg {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 100%;
     min-width: 100%;
     border-style: none;
-    max-height: 100%;
-    min-height: 100%;
+    max-height: 300px;
+    min-height: 300px;
     border-radius: 15px;
     background-color: #7F8289;
     outline: 0;
     
-} */
+} 
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
-
+#contact_submit_button{
+   
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 50%;
+    min-width: 50%;
+    border-style: none;
+    border-radius: 15px;
+    background-color: rgb(81, 83, 88);
+    outline: 0;
+    transition: all 0.2s ease-in-out;
+}
+#contact_submit_button:hover{
+   
+    background-color: #383A41;
+}
 
 
 .footer-social {

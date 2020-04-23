@@ -330,6 +330,8 @@
                             <a href="https://www.instagram.com/igorbayerl/#" class="fab fa-instagram"></a>
                         </ul>
                     </div>
+
+                    <!--                     
                     <div class="contacts">
                         <ul>
                             <a href="https://github.com/IgorBayerl#" class="fab fa-github">
@@ -346,24 +348,26 @@
                                 <p> - Instagram</p>
                             </a>
                             <i class="fas fa-envelope-open">
-                                <!-- <p> Email</p> -->
+                               
                                 <p> bayerl.igor@gmail.com</p>
 
                             </i>
 
                         </ul>
-                    </div>
-                    <!-- <div class="contact-box-inputs">
-                        Name
-                        <input class="input__contact__box" id="name" type="text">
-                        Email
-                        <input class="input__contact__box" id="email" type="text">
-                        Subject
-                        <input class="input__contact__box" id="assunto" type="text">
-                    </div>
-                    <div>
-                        <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
                     </div> -->
+
+
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="text" class="input__contact__box" name="name" placeholder="Your Name">
+                        <input type="text" class="input__contact__box" name="email" placeholder="Your Email" />
+                        <textarea id="msg" name="message"></textarea>
+                        <input type="text" name="honeypot" style="display:none">
+                        <input type="hidden" name="accessKey" value="97b4711b-ffa7-4439-8392-246997b67b4e">
+                        <input type="hidden" name="subject" value="Contact us from - example.com" />
+                        <input type="hidden" name="replyTo" value="bayerl.igor@gmail.com">
+                        <input type="hidden" name="redirectTo" value="https://igorbayerl.github.io/Portfolio/">
+                        <input id="contact_submit_button" type="submit" value="Submit" />
+                    </form>
                 </div>
             </div>
 
