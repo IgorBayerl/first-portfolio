@@ -203,11 +203,12 @@ li {
     top: 50%;
     left: 50%;
     opacity: 1;
-    transform: translate(-50%, 80%);
+    transform: translate(-50%, -50%);
     transition: all 0.2s ease-in-out;
 
    
 }
+
 .header-menu ul a div{
     text-align: center;
     font-size: 12px;
@@ -225,7 +226,7 @@ li {
     cursor: pointer;
 }
 .header-menu ul a:hover i{
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -180%);
 }
 .header-menu ul a:hover div{
     opacity: 1;
@@ -377,6 +378,18 @@ li {
 #skill_8{
     background-color:#AFB3BD;
     width: 90%;
+    height: 100%;
+    text-align: right;
+}
+#skill_git{
+    background-color:#AFB3BD;
+    width: 90%;
+    height: 100%;
+    text-align: right;
+}
+#skill_python{
+    background-color:#AFB3BD;
+    width: 40%;
     height: 100%;
     text-align: right;
 }
